@@ -1,0 +1,10 @@
+server:
+  port: 9909
+spring:
+  application:
+    name: book-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:9001/eureka}
