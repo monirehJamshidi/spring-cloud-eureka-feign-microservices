@@ -69,7 +69,7 @@ Microservices are a software architecture style where an application is composed
 
 
 
-#### Monolith چیست؟
-Monolith یا Monolithic Architecture یعنی یک نرم‌افزار بزرگ که همه اجزای آن در یک برنامه واحد و یک Deployment قرار دارند.
+#### و اینکه Monolith چیست؟
+در حقیقت Monolith یا Monolithic Architecture یعنی یک نرم‌افزار بزرگ که همه اجزای آن در یک برنامه واحد و یک Deployment قرار دارند.
 
 به زبان ساده: همه چیز با هم بسته شده و به هم وابسته است.
