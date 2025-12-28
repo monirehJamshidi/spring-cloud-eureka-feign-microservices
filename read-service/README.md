@@ -62,3 +62,13 @@ This service is an example of:
 
 The orchestration logic is explicit, readable, and easy to evolve.
 
+
+
+
+### Notes
+- read-service does not persist data
+
+- It depends on service discovery rather than static configuration
+
+- Horizontal scaling is supported naturally by running multiple instances of downstream services
+
