@@ -12,3 +12,12 @@
 
 - معمولاً از طریق HTTP/REST یا پیام‌رسانی (Kafka, RabbitMQ) با سرویس‌های دیگر ارتباط دارد
 
+#### تفاوت Microservice با Monolith
+| Monolith          | Microservice           |
+| ----------------- | ---------------------- |
+| یک اپلیکیشن بزرگ  | چند سرویس کوچک         |
+| Deploy یک‌جا      | Deploy مستقل           |
+| وابستگی شدید اجزا | Loose Coupling         |
+| Scale کل سیستم    | Scale هر سرویس جداگانه |
+
+
