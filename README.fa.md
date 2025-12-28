@@ -38,3 +38,18 @@
 
 خرابی یک سرویس کل سیستم را نمی‌خواباند
 
+
+#### و Microservice در Spring Boot
+در پروژه‌های Java معمولاً از این ابزارها استفاده می‌شود:
+
+- اول Spring Boot → ساخت سرویس‌ها
+
+- و Spring Cloud → Service Discovery, Config, Gateway
+
+- و Eureka / Consul → ثبت سرویس‌ها
+
+- و API Gateway → ورودی واحد سیستم
+
+- و Feign Client / RestTemplate / WebClient → ارتباط بین سرویس‌ها
+
+- و Docker & Kubernetes → استقرار و مدیریت
