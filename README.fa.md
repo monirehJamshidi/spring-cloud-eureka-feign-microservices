@@ -53,3 +53,16 @@
 - و Feign Client / RestTemplate / WebClient → ارتباط بین سرویس‌ها
 
 - و Docker & Kubernetes → استقرار و مدیریت
+
+
+#### چه زمانی Microservice انتخاب خوبی است؟
+✔ سیستم بزرگ و در حال رشد
+
+✔ تیم‌های توسعه مستقل
+
+✔ نیاز به scalability بالا
+
+✔ و CI/CD قوی
+
+#### یک تعریف کوتاه مخصوص مصاحبه
+Microservices are a software architecture style where an application is composed of small, independent services that communicate over well-defined APIs and can be developed, deployed, and scaled independently.
