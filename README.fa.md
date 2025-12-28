@@ -66,3 +66,10 @@
 
 #### یک تعریف کوتاه مخصوص مصاحبه
 Microservices are a software architecture style where an application is composed of small, independent services that communicate over well-defined APIs and can be developed, deployed, and scaled independently.
+
+
+
+#### Monolith چیست؟
+Monolith یا Monolithic Architecture یعنی یک نرم‌افزار بزرگ که همه اجزای آن در یک برنامه واحد و یک Deployment قرار دارند.
+
+به زبان ساده: همه چیز با هم بسته شده و به هم وابسته است.
