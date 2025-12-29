@@ -143,7 +143,9 @@ Microservices are a software architecture style where an application is composed
   - Orchestration (Kubernetes)
   - CI/CD
   - Auto-scaling & resilience
-    📌 تمرکز Cloud-Native روی How it’s built است.
+   
+  
+  📌 تمرکز Cloud-Native روی How it’s built است.
 
 #### تفاوت اصلی در یک نگاه
 
@@ -166,3 +168,18 @@ and you can also build cloud-native applications on private or hybrid clouds.
 Public Cloud = Where your app runs ☁️
 
 Cloud-Native = How your app is built 🌱
+
+
+#### اول اینکه Horizontal Scaling (Scale Out) چیست؟ 🔁
+
+Horizontal Scaling یعنی:
+
+👉 اضافه‌کردن چند instance جدید از یک سرویس یا اپلیکیشن
+
+به جای قوی‌تر کردن یک سرور.
+
+مثال ساده:
+- به‌جای یک سرور قوی‌تر
+- چند سرور معمولی اضافه می‌کنیم
+
+و ترافیک بین آن‌ها load balance می‌شود.
