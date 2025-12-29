@@ -172,7 +172,7 @@ Cloud-Native = How your app is built 🌱
 
 #### اول اینکه Horizontal Scaling (Scale Out) چیست؟ 🔁
 
-Horizontal Scaling یعنی:
+در حقیقت Horizontal Scaling یعنی:
 
 👉 اضافه‌کردن چند instance جدید از یک سرویس یا اپلیکیشن
 
@@ -183,3 +183,32 @@ Horizontal Scaling یعنی:
 - چند سرور معمولی اضافه می‌کنیم
 
 و ترافیک بین آن‌ها load balance می‌شود.
+
+#### و Vertical Scaling (Scale Up) چیست؟ ⬆️
+در حقیقت Vertical Scaling یعنی:
+
+👉 قوی‌تر کردن همان سرور موجود
+
+مثلاً:
+- افزایش CPU
+
+- افزایش RAM
+
+- افزایش Disk
+
+#### مقایسه سریع
+| نوع Scaling                | معنی                | مثال                 |
+| -------------------------- | ------------------- | -------------------- |
+| **Scale Up (Vertical)**    | قوی‌تر کردن یک سرور | RAM از 8GB → 32GB    |
+| **Scale Out (Horizontal)** | اضافه کردن instance | 1 سرویس → 5 instance |
+
+
+#### کِی Horizontal Scaling بهتر است؟
+✅ سیستم‌های Cloud-Native
+
+✅ و Microservices
+
+✅ نیاز به High Availability
+
+✅ و Auto-scaling در Kubernetes
+
