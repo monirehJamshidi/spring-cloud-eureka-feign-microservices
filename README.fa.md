@@ -212,3 +212,50 @@ Cloud-Native = How your app is built 🌱
 
 ✅ و Auto-scaling در Kubernetes
 
+#### نقش Eureka چیست؟ 🧭
+در حقیقت Eureka یک Service Discovery است.
+
+یعنی:
+
+- هر Microservice موقع بالا آمدن، خودش را در Eureka ثبت می‌کند
+- به جای استفاده از IP و Port ثابت، سرویس‌ها نام همدیگر را پیدا می‌کنند
+- وقتی یک instance down شود، Eureka آن را از لیست حذف می‌کند
+
+#### نقش Feign چیست؟ 🤝
+
+Feign یک HTTP Client ساده‌شده است.
+
+یعنی:
+
+به شما اجازه می‌دهد یک سرویس دیگر را مثل یک متد Java صدا بزنید
+بدون نوشتن دستی RestTemplate یا WebClient
+
+```java
+@FeignClient("user-service")
+public interface UserClient {
+    @GetMapping("/users/{id}")
+    User getUser(@PathVariable Long id);
+}
+
+```
+
+
+#### Eureka + Feign با هم چه می‌کنند؟ 🔗
+Eureka → پیدا می‌کند سرویس کجاست
+Feign → با آن سرویس ارتباط برقرار می‌کند
+
+
+💡 Feign به صورت خودکار از اطلاعات Eureka استفاده می‌کند.
+
+#### خلاصه مصاحبه‌ای
+Eureka handles service discovery
+
+Feign handles service-to-service communication
+
+
+#### نکته حرفه‌ای (Senior Level)
+در سیستم‌های مدرن:
+
+اول اینکه Eureka گاهی با Consul / Kubernetes Service Discovery جایگزین می‌شود
+
+و Feign هنوز بسیار محبوب است (به‌خصوص با Resilience4j)
